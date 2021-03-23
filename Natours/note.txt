@@ -1,0 +1,70 @@
+The css Viual Formatting Model:
+is an algorithm that calculates boxes and determines the layout of theses boxes, for each element in the render tree in order to determine the fianl layout of the page.
+
+- dimensions of boxes: the box model;
+- Box Type: inline, block and inline-block
+- Position scheme: floats and positioning 
+- Stacking contexts
+- Other element in the render tree
+- Viewport size, dimensions of images, ect
+
+
+
+- Box Type: inline, block and inline-block
+
+The type of a box is always defined by a display property. 
+
+Block-level boxes 
+display: block;
+(display: flex)
+(display: list-item)
+(display: table)
+> element formatted visually as blocks
+> 100% of parent's width 
+> Vertically, one after another
+> Box-model applies as showed
+
+Inline-boxes 
+display: inline;
+> Content is distributed in lines and
+> Occupies only content's space and
+> No line-breaks
+> No heights and width 
+> Paddings and margins only horizontal (left and right)
+
+
+Architect
+the 7-1 pattern
+7 different folders for partial Sass files,
+1 main Sass file to import all other files into a compliled CSS stylesheet. 
+
+THE 7 FOLDERS 
+
+> base/
+put the basic product definitions
+
+> components/
+we have one file for each components
+
+> layout/
+we define the overall layout of the project
+
+> pages/
+we styles for specific pages of the project
+
+> themes/
+if you want to implement different visual themes
+
+> abstracts/
+we put code that doesn't output any CSS sush as variables or mix-ins
+
+> vendors/
+where all third party CSS goes 
+
+
+
+
+
+
+
+
