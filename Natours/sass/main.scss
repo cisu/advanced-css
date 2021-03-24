@@ -9,8 +9,8 @@ https://www.cssportal.com/css-clip-path-generator/
 @import './abstracts/variables';
 
 @import './base/base';
-@import './base/animation';
 @import './base/typography';
+@import './base/animation';
 @import './base/utilities';
 
 @import './components/button';
@@ -18,4 +18,4 @@ https://www.cssportal.com/css-clip-path-generator/
 @import './layout/grid';
 @import './layout/header';
 
-@import './pages/home.scss';
+@import './pages/home';
