@@ -62,9 +62,41 @@ we put code that doesn't output any CSS sush as variables or mix-ins
 where all third party CSS goes 
 
 
+terminal
+copy a file 
+cp <file name> <location>
+cp index.js ..
+
+move a file
+mv <file name> <location>
+mv script.js ..
+
+remove a file
+rm <file name>
+rm index.js 
+
+remove a folder
+rm -r <folder name>
+rm -r js
+
+
+Install Sass
+npm i node-sass --save-dev
 
 
 
+Make linear-gradient only as a color text
 
+to stop the with base o text,
+    display: inline-block;
 
+The color need to apply
+    background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+    );
 
+Put the text color transparent and the bgcolor with this new property.
+  -webkit-background-clip: text;
+  color: transparent;
