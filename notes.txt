@@ -1,0 +1,13 @@
+When to use image, figure and picture tag in html
+
+<img />
+Used to add a single image to the page.
+Great for article/post thumbnails, site logo, about page photo, slideshow images, etc.
+
+<figure />
+Used to mark up an images.
+Used to give the image axtra contact .
+Great to give image credits, specify source, add link to author or page with more info about image, image citation, etc.
+
+<picture />
+Works like an image resource container meant for art direction for responsive
