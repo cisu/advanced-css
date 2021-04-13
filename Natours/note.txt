@@ -100,3 +100,7 @@ The color need to apply
 Put the text color transparent and the bgcolor with this new property.
   -webkit-background-clip: text;
   color: transparent;
+
+  HTML entity
+  &times; == X
+  $nbsp; == space
