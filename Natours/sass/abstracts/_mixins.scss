@@ -36,9 +36,16 @@ $breakpoint arguemnt choices:
 - Tablet Portrait = tab-port
 - Tablet Landscape = tab-land
 - big-desktop
+
+ORDER: Base + typography > general layout (header, footer, navigation, ect) + grid > layout > components
+
+1em = 16px
+
 */
 
-// 1em = 16px
+
+
+
 
 
 @mixin respond($breakpoint){
