@@ -3,6 +3,22 @@ css clip-path maker
 https://www.cssportal.com/css-clip-path-generator/
 
 */
+/*
+
+0   - 600px    :    Phone
+600 - 900px    :    Table Portrait
+900 - 1200px   :    Tablet Landscape
+1200px - 1800px:    Is where our normal styles applies
+1800px +       :    Big Desktop   
+
+*/
+/*
+$breakpoint arguemnt choices:
+- phone
+- Tablet Portrait = tab-port
+- Tablet Landscape = tab-land
+- big-desktop
+*/
 *,
 *::after,
 *::before {
@@ -12,6 +28,15 @@ https://www.cssportal.com/css-clip-path-generator/
 
 html {
   font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }

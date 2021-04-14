@@ -104,3 +104,10 @@ Put the text color transparent and the bgcolor with this new property.
   HTML entity
   &times; == X
   $nbsp; == space
+
+
+
+We use em in media query because rem doesn't work for some reason.
+1em is equal to font size browser befault 16px or if the use has changed this value then the new value will apply.
+
+  
