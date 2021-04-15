@@ -111,3 +111,17 @@ We use em in media query because rem doesn't work for some reason.
 1em is equal to font size browser befault 16px or if the use has changed this value then the new value will apply.
 
   
+
+  @media only screen and (max-width: 37.5em):
+  The only screen in media query only gets applied to screens.
+  So for example if someone tries to print out our page, then these media queries don't apply.
+
+  // Write a media query than appllies in not honer devices
+
+
+   @media only screen and (max-width: 56.25em),
+         only screen and (hover: none)
+
+  if you want the hover the write
+      
+      only screen and (hover: hover)
