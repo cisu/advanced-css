@@ -1,0 +1,35 @@
+Flexbox is a new module in CSS3 that makes it easy to align elements to one another, in different directions and orders.
+
+The main idea behind flexbox is to given the container the abilith to expand and to shrink elements to best use all the available space.
+
+Flexbox replaces float layouts, using less and more readable and logigal code.
+
+Flexbox completely changes the way that we build one-dimensional layouts.
+
+
+***************** USE FLEXBOX ***********************************
+
+The element on which we use flexbox is called the flex container.
+And all we have to do in order to create a Flex container is to set its display to flex.
+	
+	display: flex;
+
+We can also set it to flex-inline which will then create a Flex container that behaves like an in-line element
+
+	display: inline-flex;
+
+
+All the direct children of the Flex container are called the Flex items.
+
+Now, the direction which these flex items are layout is called the main axis, in X direction. The other perpenidicular axis is simply called the cross axis, in Y direction. 
+It's important to be aware of these names because we can change the direction of the main axis.
+And also because there are different ways of aligning elements both along the main axis and the cross axis.
+
+
+
+
+
+
+
+
+
