@@ -32,11 +32,11 @@ the xlink:href works only in a web server (include live-server)
 
 
 
+// If you want to change svg color select the fill propery
 
-
-
-
-
+.className_svg_has{
+   fill: red;
+}
 
 
 
