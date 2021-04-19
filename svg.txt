@@ -1,0 +1,42 @@
+SVG
+
+(Scalable Vector Graphics)
+
+
+https://icomoon.io/
+
+In order to select svg
+
+iconMoonApp -> choose a library -> Generate SVG & More -> icon(granazi) -> if you don't want a png uncheck png -> download -> In folder only need is the SVG file and symbol-defs.svg
+
+symbol-defs.svg:  is a spite file, a sprite file is a file which contains all svg we choose before in one file.
+
+Also we have the demo.html file
+
+
+IN HTML 
+use svg tag and inside use the use tag 
+with xlink:href attribute
+with xlink:href='
+(first the path folder all the way in sprite.svg)
+(second the # symbol)
+(third the name of the svg)'
+
+// example
+ <svg class="your_className">
+   <use xlink:href='./img/sprite.svg#icon-magnifying-glass></use>
+ </svg>
+
+
+the xlink:href works only in a web server (include live-server)
+
+
+
+
+
+
+
+
+
+
+

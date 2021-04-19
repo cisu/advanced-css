@@ -13,19 +13,69 @@
     <body>
         <div class="container">
             
+            <!-- header -->
             <header class="header">
-                Header part
-            </header>
+                <img src="./img/logo.png" alt="trillo logo" class="logo">
 
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    
+                    <button class="search__button">
+                        <svg class="search__icon">
+                            <use xlink:href='img/sprite.svg#icon-magnifying-glass'></use>
+                        </svg>
+                    </button>
+                </form>
+
+                <nav class="user-nav">
+                    <!-- first svg -->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href='img/sprite.svg#icon-bookmark'></use>
+                        </svg>
+                        <span class="user-nav__notification">
+                            7
+                        </span>
+                    </div>
+                     <!-- end first svg -->
+
+                     <!-- second svg -->
+                    <div class="user-nav__icon-box">
+                        <svg class="user-nav__icon">
+                            <use xlink:href='img/sprite.svg#icon-chat'></use>
+                        </svg>
+                        <span class="user-nav__notification">
+                            13
+                        </span>
+                    </div>
+                     <!-- end second svg -->
+
+                     <div class="user-nav__user">
+                         <img class="user-nav__user-photo" src="./img/user-1.jpg" alt="">
+                        <span class="user-nav__user-name">George</span>
+                    </div>
+                </nav>
+            </header>
+            <!-- end of header -->
+
+            <!-- content -->
             <div class="content">
+               
+                <!-- navigation -->
                 <nav class="sidebar">
                     Navigation
                 </nav>
+                <!-- end of navigation -->
 
+                <!-- main content -->
                 <main class="hotel-view" id='hotel-id'>
                     Hotel View
                 </main>
+                <!-- end of main content -->
+
             </div>
+            <!-- end of content -->
+
 
         </div>
     </body>
