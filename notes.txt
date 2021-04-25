@@ -11,3 +11,14 @@ Great to give image credits, specify source, add link to author or page with mor
 
 <picture />
 Works like an image resource container meant for art direction for responsive
+
+
+
+
+ // currentColor: is the color of the current element or the parent element.
+
+
+ // transform-origin: defined the start point of a transform property. The values transform-origin takes is top, center, bottom.
+
+
+ // z-idnex: only works if we have specified poistion.
